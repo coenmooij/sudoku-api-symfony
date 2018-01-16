@@ -18,7 +18,7 @@
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
         "symfony/yaml": "^4.0",
-        "coenmooij/sudoku-bundle": "^0.2.0"
+        "coenmooij/sudoku-bundle": "^0.3.0"
     },
     "require-dev": {
         "symfony/dotenv": "^4.0"
