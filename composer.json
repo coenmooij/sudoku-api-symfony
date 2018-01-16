@@ -1,0 +1,17 @@
+{
+    "name": "coenmooij/sudoku-api",
+    "description": "a simple api to generate and (partially) solve sudoku puzzles",
+    "type": "project",
+    "license": "MIT",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Coen Mooij",
+            "email": "coenmooij@gmail.com"
+        }
+    ],
+    "require": {
+        "coenmooij/sudoku-bundle": "^0.1.0",
+        "symfony/framework-bundle": "^4.0"
+    }
+}
