@@ -10,6 +10,7 @@
             "email": "coenmooij@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.1.3",
         "ext-iconv": "*",
@@ -18,10 +19,11 @@
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
         "symfony/yaml": "^4.0",
-        "coenmooij/sudoku-bundle": "^0.3.0"
+        "coenmooij/sudoku-bundle": "dev-master"
     },
     "require-dev": {
-        "symfony/dotenv": "^4.0"
+        "symfony/dotenv": "^4.0",
+        "symfony/web-server-bundle": "^4.0"
     },
     "config": {
         "preferred-install": {
