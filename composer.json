@@ -3,7 +3,7 @@
     "description": "a simple api to generate and (partially) solve sudoku puzzles",
     "type": "project",
     "license": "MIT",
-    "version": "0.1",
+    "version": "0.2",
     "authors": [
         {
             "name": "Coen Mooij",
@@ -19,7 +19,7 @@
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
         "symfony/yaml": "^4.0",
-        "coenmooij/sudoku-bundle": "dev-master"
+        "coenmooij/sudoku-bundle": "^1.0"
     },
     "require-dev": {
         "symfony/dotenv": "^4.0",

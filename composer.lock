@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2751ecc366f22276ed050a8c6a3f6ffd",
+    "content-hash": "badcee0467aaae7229ea4fee55b90ef1",
     "packages": [
         {
             "name": "coenmooij/sudoku",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/coenmooij/sudoku.git",
-                "reference": "e222281390ae8cc8e6f82e3a4acefb07ab409315"
+                "reference": "5506a1948e5b2b8763c105f1c16c33c6696dd57d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coenmooij/sudoku/zipball/e222281390ae8cc8e6f82e3a4acefb07ab409315",
-                "reference": "e222281390ae8cc8e6f82e3a4acefb07ab409315",
+                "url": "https://api.github.com/repos/coenmooij/sudoku/zipball/5506a1948e5b2b8763c105f1c16c33c6696dd57d",
+                "reference": "5506a1948e5b2b8763c105f1c16c33c6696dd57d",
                 "shasum": ""
             },
             "require": {
@@ -42,29 +42,28 @@
             "authors": [
                 {
                     "name": "Coen Mooij",
-                    "email": "coenmooij@gmail.com",
-                    "homepage": "https://coenmooij.nl"
+                    "email": "coenmooij@gmail.com"
                 }
             ],
             "description": "Sudoku package for generating, validating and solving sudoku puzzles",
-            "time": "2018-01-16T16:51:52+00:00"
+            "time": "2018-01-17T12:32:58+00:00"
         },
         {
             "name": "coenmooij/sudoku-bundle",
-            "version": "dev-master",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/coenmooij/sudokuBundle.git",
-                "reference": "3ab434b4477ef02e6ba6baa8513844b000fe02bd"
+                "reference": "2896b642562acaea85a018ddd642f21b2aebf9fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/coenmooij/sudokuBundle/zipball/3ab434b4477ef02e6ba6baa8513844b000fe02bd",
-                "reference": "3ab434b4477ef02e6ba6baa8513844b000fe02bd",
+                "url": "https://api.github.com/repos/coenmooij/sudokuBundle/zipball/2896b642562acaea85a018ddd642f21b2aebf9fc",
+                "reference": "2896b642562acaea85a018ddd642f21b2aebf9fc",
                 "shasum": ""
             },
             "require": {
-                "coenmooij/sudoku": "dev-master",
+                "coenmooij/sudoku": "^1.0",
                 "php": "^7.1",
                 "symfony/framework-bundle": "^4.0"
             },
@@ -85,7 +84,7 @@
                 }
             ],
             "description": "Symfony bundle for coenmooij/sudoku library",
-            "time": "2018-01-16T16:57:12+00:00"
+            "time": "2018-01-17T12:36:35+00:00"
         },
         {
             "name": "psr/cache",
@@ -352,12 +351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "0e86d267db0851cf55f339c97df00d693fe8592f"
+                "reference": "3315af4cab052ed4cde4e923f067743f84958ae3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/0e86d267db0851cf55f339c97df00d693fe8592f",
-                "reference": "0e86d267db0851cf55f339c97df00d693fe8592f",
+                "url": "https://api.github.com/repos/symfony/config/zipball/3315af4cab052ed4cde4e923f067743f84958ae3",
+                "reference": "3315af4cab052ed4cde4e923f067743f84958ae3",
                 "shasum": ""
             },
             "require": {
@@ -404,7 +403,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-03T07:38:00+00:00"
+            "time": "2018-01-16T18:04:12+00:00"
         },
         {
             "name": "symfony/console",
@@ -412,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "30c9ff7c013d67ea91ab2b1df8ba29afc4ebc37e"
+                "reference": "b123b295d9e23a7c18911ea0834b6e30d85f4b8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/30c9ff7c013d67ea91ab2b1df8ba29afc4ebc37e",
-                "reference": "30c9ff7c013d67ea91ab2b1df8ba29afc4ebc37e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/b123b295d9e23a7c18911ea0834b6e30d85f4b8e",
+                "reference": "b123b295d9e23a7c18911ea0834b6e30d85f4b8e",
                 "shasum": ""
             },
             "require": {
@@ -472,7 +471,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-15T16:00:46+00:00"
+            "time": "2018-01-16T18:04:12+00:00"
         },
         {
             "name": "symfony/debug",
@@ -768,12 +767,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/flex.git",
-                "reference": "358074d87b93b5f1e83e9bfdf099263b92baf566"
+                "reference": "c233143ef550f6acbe033fe63d15dad15ca8566a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/flex/zipball/358074d87b93b5f1e83e9bfdf099263b92baf566",
-                "reference": "358074d87b93b5f1e83e9bfdf099263b92baf566",
+                "url": "https://api.github.com/repos/symfony/flex/zipball/c233143ef550f6acbe033fe63d15dad15ca8566a",
+                "reference": "c233143ef550f6acbe033fe63d15dad15ca8566a",
                 "shasum": ""
             },
             "require": {
@@ -806,7 +805,7 @@
                     "email": "fabien.potencier@gmail.com"
                 }
             ],
-            "time": "2018-01-16T16:03:16+00:00"
+            "time": "2018-01-17T07:28:24+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -814,12 +813,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "9f8d0831821aed444e836c5221689ab5e38fdeb5"
+                "reference": "fa68ee922b231501f747f69a29541851b32e8a69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/9f8d0831821aed444e836c5221689ab5e38fdeb5",
-                "reference": "9f8d0831821aed444e836c5221689ab5e38fdeb5",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/fa68ee922b231501f747f69a29541851b32e8a69",
+                "reference": "fa68ee922b231501f747f69a29541851b32e8a69",
                 "shasum": ""
             },
             "require": {
@@ -920,7 +919,7 @@
             ],
             "description": "Symfony FrameworkBundle",
             "homepage": "https://symfony.com",
-            "time": "2018-01-13T14:05:32+00:00"
+            "time": "2018-01-16T18:04:12+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -928,12 +927,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "2b279074623518f959ef71a668f4a984abbe901b"
+                "reference": "746f2468a806b92167f90d1d84c907a0e43fd3ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/2b279074623518f959ef71a668f4a984abbe901b",
-                "reference": "2b279074623518f959ef71a668f4a984abbe901b",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/746f2468a806b92167f90d1d84c907a0e43fd3ed",
+                "reference": "746f2468a806b92167f90d1d84c907a0e43fd3ed",
                 "shasum": ""
             },
             "require": {
@@ -973,7 +972,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2018-01-15T16:00:46+00:00"
+            "time": "2018-01-16T18:04:12+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -1218,12 +1217,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "a34b58ed26cc090f99b2ef833d609a6884581b3c"
+                "reference": "a69bd948700b672e036147762f46749bcae33796"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/a34b58ed26cc090f99b2ef833d609a6884581b3c",
-                "reference": "a34b58ed26cc090f99b2ef833d609a6884581b3c",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/a69bd948700b672e036147762f46749bcae33796",
+                "reference": "a69bd948700b672e036147762f46749bcae33796",
                 "shasum": ""
             },
             "require": {
@@ -1288,7 +1287,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2018-01-04T15:52:56+00:00"
+            "time": "2018-01-16T18:04:12+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1518,8 +1517,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "symfony/lts": 20,
-        "coenmooij/sudoku-bundle": 20
+        "symfony/lts": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
